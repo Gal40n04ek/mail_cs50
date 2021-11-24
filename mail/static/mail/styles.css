@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
+textarea {
+    min-height: 400px;
+}
+
+table {
+    width:100%;
+}
+
+tr {
+    padding-left: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+th {    
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 25px;
+}
+
+td,th {
+    padding: 5px 10px;
+    text-align: left;
+}
+
+#emailHeader, #emailContent {
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+
+button {
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    background-color: #007bff;
+    border-color: #007bff;
+}
